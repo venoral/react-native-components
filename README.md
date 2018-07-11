@@ -1,4 +1,6 @@
 # react-native-swipe-del
+[![](https://img.shields.io/npm/v/react-native-swipe-del.svg?style=flat-square)](https://www.npmjs.com/package/react-native-swipe-del) [![](https://img.shields.io/npm/dt/react-native-swipe-del.svg?style=flat-square)](https://www.npmjs.com/package/react-native-swipe-del) [![](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/venoral/react-native-swipe-del/blob/master/LICENSE)
+
 
 ## Sample
 
