@@ -4,7 +4,7 @@
 
 ## Sample
 
-![Image]()
+![Image](https://github.com/venoral/Test/blob/master/imgs/swipe-del.gif?raw=true)
 
 
 ## Introduction
