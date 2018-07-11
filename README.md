@@ -1,6 +1,6 @@
 # react-native-swipe-del
 
-## Demo
+## Sample
 
 
 ## Introduction
@@ -9,12 +9,10 @@ This component is based on reactNative generation, the aim is to provide the abi
 
 ## Installation
 
-Run `npm install --save react-native-swipe-del`.
+`npm install --save react-native-swipe-del`
 
 
-# Usage
-
-Example code:
+## Usage
 
 ```JavaScript
 /**
@@ -35,7 +33,7 @@ class Demo extends Component {
                     {text: 'OK', onPress: () => console.log('OK Pressed')}
                 ]);
             }}>
-                {/*内容content*/}
+                {/*item content*/}
                 <View style={styles.itemWrap}>
                     <Text style={styles.itemText}>item content</Text> 
                 </View>
@@ -54,7 +52,6 @@ const styles = StyleSheet.create({
         color: '#9D7618'
     }
 });
-
 
 AppRegistry.registerComponent('Demo', () => Demo);
 
