@@ -22,21 +22,39 @@ Example code:
  * https://github.com/facebook/react-native
  */
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, StyleSheet, AppRegistry, Alert } from 'react-native';
 import { SwipeDel } from 'react-native-swipe-del';
 
 class Demo extends Component {
+    
     render() {
         return (
-            <SwipeDel handleDelete={() => console.log('delete')}>
+            <SwipeDel style={{marginTop: 20}} handleDelete={() => {
+                Alert.alert('Alert Title', null,[
+                    {text: 'Cancel', onPress: () => console.log('Cancel Pressed')},
+                    {text: 'OK', onPress: () => console.log('OK Pressed')}
+                ]);
+            }}>
                 {/*内容content*/}
-                <View style={{backgroundColor: 'pink', height: 100}}>
-                    <Text>item内容</Text> 
+                <View style={styles.itemWrap}>
+                    <Text style={styles.itemText}>item content</Text> 
                 </View>
             </SwipeDel>
         );
     }
 }
+
+const styles = StyleSheet.create({
+    itemWrap: {
+        backgroundColor: '#FFF5DB',
+        alignItems: 'center',
+        paddingVertical: 40
+    },
+    itemText: {
+        color: '#9D7618'
+    }
+});
+
 
 AppRegistry.registerComponent('Demo', () => Demo);
 

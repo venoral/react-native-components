@@ -67,7 +67,7 @@ export default class SwipeDel extends Component {
         return (<View style={styles.swipeLower}>
             <Animated.View style={[styles.swipeLowerRight, {width: currentOffset}]}>
                 <TouchableOpacity style={[styles.delTextContainer]} onPress={this._handleDelete.bind(this)}>
-                    <Text style={styles.delText} numberOfLines={1}>删除</Text>
+                    <Text style={styles.delText} numberOfLines={1}>delete</Text>
                 </TouchableOpacity>
             </Animated.View>
         </View>);
