@@ -4,9 +4,17 @@
 
 ![Image]()
 
+
 ## Introduction
 
-This component is based on reactNative, the aim is to provide the ability to swipe left and delete item, with a good animation effect.
+react-native-swipe-del is based on reactNative, the aim is to provide the ability to swipe left and delete item.
+
+
+## Feature
+
+> * animation
+> * compatible(ios and adr)
+
 
 ## Installation
 
