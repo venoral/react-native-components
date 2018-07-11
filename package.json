@@ -1,0 +1,23 @@
+{
+  "name": "react-native-swipe-del",
+  "version": "1.0.0",
+  "description": "react-native侧滑删除组件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venoral/react-native-swipe-del.git"
+  },
+  "keywords": [
+    "react-native",
+    "swipe"
+  ],
+  "author": "venoral",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/venoral/react-native-swipe-del/issues"
+  },
+  "homepage": "https://github.com/venoral/react-native-swipe-del#readme"
+}
