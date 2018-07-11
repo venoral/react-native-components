@@ -6,7 +6,7 @@
 
 ## Introduction
 
-This component is based on reactNative generation, the aim is to provide the ability to swipe left and delete item, with a good animation effect.
+This component is based on reactNative, the aim is to provide the ability to swipe left and delete item, with a good animation effect.
 
 ## Installation
 
