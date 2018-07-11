@@ -1,4 +1,4 @@
-import SwipeDel from './SwipeDel';
+import SwipeDel from './swipeDel';
 
 module.exports = {
     SwipeDel
